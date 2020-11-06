@@ -5,11 +5,12 @@
 * https://moderncss.dev/
 */
 #__next {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: aquamarine;
 }
 #__next > main {
-  margin: 1rem auto 0;
-  max-width: 80ch;
+    margin: 1rem auto 0;
+    max-width: 80ch;
 }
